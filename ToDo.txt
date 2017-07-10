@@ -1,0 +1,10 @@
+ToDo:
+
+- generate a CSV file which is the stream of events (clean this, and/or use old logs (pre-merged))
+    - probably need to make the events in the {guid, i/u/d, ...} format
+
+- Histogram of spots booked per user  centered around mean (numeric distribution?)
+
+- start ESP, pump events (incl
+
+- make list of spot owners/numbers who have never posted their spots vs. in last 6 months, vs. those who have posted them the most
