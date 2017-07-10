@@ -1,5 +1,6 @@
 logs
 old
+.ipynb_checkpoints
 spot_names.csv
 spots_augmented.csv
 spots.csv
