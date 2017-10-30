@@ -1,2 +1,2 @@
 # parking
-This is an exploration of how our parking system is used.
+This is an exploration of how our parking system is used and to detect fraud.
