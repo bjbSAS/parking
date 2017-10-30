@@ -12,12 +12,12 @@ import netrc
 import pandas as pd
 # import hashlib
 
-#bookSpotURL = 'http://torvmpiis8/ParkingApp/Spot/BookSpot'
-#getMyBookingURL = 'http://torvmpiis8.na.sas.com/ParkingApp/Spot/GetMyBookedSpot'
-#parking_url = 'http://torvmpiis8.na.sas.com/ParkingApp/Spot/Index'
-getTodayBookingURL = 'http://torvmpiis8.na.sas.com/ParkingApp/Spot/GetTodayBooking'
-getBookingURL = 'http://torvmpiis8.na.sas.com/ParkingApp/BookingCalendar/GetBooking'
-getAvailSpotURL = 'http://torvmpiis8.na.sas.com/ParkingApp/Spot/GetAvailableSpot?timeselect=UP+To+60+Days'
+#bookSpotURL = '<hostname>/ParkingApp/Spot/BookSpot'
+#getMyBookingURL = '<hostname>/ParkingApp/Spot/GetMyBookedSpot'
+#parking_url = '<hostname>/ParkingApp/Spot/Index'
+getTodayBookingURL = '<hostname>/ParkingApp/Spot/GetTodayBooking'
+getBookingURL = '<hostname>/ParkingApp/BookingCalendar/GetBooking'
+getAvailSpotURL = '<hostname>/ParkingApp/Spot/GetAvailableSpot?timeselect=UP+To+60+Days'
 
 logfilename = 'logs/log_' + datetime.now().strftime('%Y-%m-%d_%H.%M.%S.%f')+'.csv'
 #psafilenamejson = 'logs/psa_' + datetime.now().strftime('%Y-%m-%d_%H.%M.%S.%f')+'.json'
